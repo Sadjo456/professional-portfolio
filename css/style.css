@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+/* let style the body*/
+body {
+    background-color: rgb(219, 206, 206);
+}
+/* Let sstyle the hearder*/
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: black;
+    color: teal;
+    line-height: 1.5;
+}
+/* Style the heading*/
+header h1 {
+    background-color: rgb(177, 148, 224);
+    padding: 5px 2px 5px 6%;
+}
+/* Style the navigation*/
+header nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+header nav a {
+    color: blue;
+    margin-right: 10px;
+}
+#work {
+    width: 100%;
+}
+img {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+main {
+    max-width: 95%;
+    margin: 20px auto 45px auto;
+}
+.page-section {
+    display: flex;
+    /* flex-direction: column; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: orange; */
+    /* align-items: stretch; */
+}
+.page-section h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    border-right: 2px solid teal;
+    margin-bottom: 20px;
+    padding-right: 10px;
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.md-20 {
+    /* background-color: green; */
+    width: 25%;
+    padding: 5px;
+}
+.md-80 {
+    /* background-color: green; */
+    width: 75%;
+    padding: 5px;
+}
+
+.project-boxes {
+    width: 100%;
+    border: 2px solid purple;
+    background-color: yellow;
+}
+
+.box-item {
+    border: 2px solid teal;
+    background-color: aqua;
+
+
+}
+.box-item div {
+    border: 5px solid black;
+}
